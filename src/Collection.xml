@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="student" class="com.Collection.Student">
+        <!-- List of Student Names-->
+        <property name="studentNames">
+            <list>
+                <value>Saikumar</value>
+                <value>Lokesh</value>
+                <value> Pradeep</value>
+            </list>
+        </property>
+
+        <!-- Set of Country Names -->
+        <property name="countryNames">
+            <set>
+                <value>India</value>
+                <value>America</value>
+                <value>Japan</value>
+            </set>
+        </property>
+
+        <!-- Map of topCities -->
+        <property name="topCities">
+        <map>
+            <entry key="1" value="Visakhapatnam"/>
+            <entry key="2" value="Hyderabad"/>
+            <entry key="3" value="Mumbai"/>
+        </map>
+        </property>
+
+        <!--Properties -->
+        <property name="cash">
+            <props>
+                <prop key="1">100 Rs</prop>
+                <prop key="2">200 Rs</prop>
+                <prop key="1">100 Rs</prop>
+                <prop key="3">300 Rs</prop>
+            </props>
+        </property>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!-- Parent class-->
+    <bean id="parentClass" class="com.Inheritance.Parent">
+        <property name="message1" value="This is parent class message1"/>
+        <property name="message2" value="This is parent class message2"/>
+    </bean>
+    <!-- child class-->
+    <bean id="childClass" class="com.Inheritance.Child" parent="parentClass">
+
+        <property name="message3" value="This is child class message3"/>
+        <property name="message4" value="This is child class message4"/>
+    </bean>
+</beans>
