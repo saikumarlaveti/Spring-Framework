@@ -1,4 +1,4 @@
-package com.autowiring;
+package com.autowiring.ByType;
 
 public class Mobile {
 

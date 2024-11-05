@@ -5,12 +5,11 @@
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="saikumar" class="com.autowiring.Saikumar" autowire="constructor">
-<!--        <constructor-arg ref="mobile"/>-->
-<!--        <property name="mobile" ref="mobile"/>-->
+    <bean id="saikumar" class="com.autowiring.ByType.Saikumar" autowire="byType">
 
     </bean>
 
-    <bean id="mobile" class="com.autowiring.Mobile"/>
+    <bean id="mobile" class="com.autowiring.ByType.Mobile"/>
+    <bean id="laptop" class="com.autowiring.ByType.Laptop"/>
 
 </beans>
