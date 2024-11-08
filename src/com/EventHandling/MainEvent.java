@@ -1,6 +1,6 @@
 package com.EventHandling;
 
-import org.springframework.context.ApplicationContext;
+
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -241,5 +241,19 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/aopalliance-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/aspectjrt-1.5.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/aspectjrt-1.9.21.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/aspectjtools-1.9.22.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/aspectjtools-1.9.22.1.jar!/OSGI-OPT/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
